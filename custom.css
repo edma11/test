@@ -1,59 +1,65 @@
-<style>
-html {
-  overflow-y: scroll;
+<style>.row {
+  margin-left: 0;
+  margin-right: 0;
 }
-.row{ margin-left: 0; margin-right: 0;}
 
+.row-fix {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
 
 body {
-    font-family: 'Balsamiq Sans';
-}	
-	
+  font-family: 'Balsamiq Sans';
+}
+
 .nav-link {
 
-color: black !important;
+  color: black !important;
 }
 
 .nav-link:hover {
 
-opacity:0.8;
+  opacity: 0.8;
 }
 
-.navbar-brand, .active {
+.navbar-brand,
+.active {
 
-font-weight: 700 !important;
+  font-weight: 700 !important;
 }
 
 .navbar-brand img {
-margin-top:-16px;
+  margin-top: -16px;
 }
-	
+
 .prideti {
   border: 5px solid black;
   padding: 0px;
- margin-right: 20px;
- background: #2b78e4;
- color: white !important;
-}	
+  margin-right: 20px;
+  background: #2b78e4;
+  color: white !important;
+}
 
 .telefonas {
   border: 5px solid;
   padding: 10px;
-  box-shadow: 3px 5px;
 
- width: 250px;
+  background: #cccccc;
+  width: 260px;
 
-}	
-
-.fb{
- white-space: nowrap;
-margin-left: 0
 }
 
-.navbar-expand-md{
-top:20px ; /* meniu nuleidimas nuo viršaus */
+.fb {
+  white-space: nowrap;
+  margin-left: 0
 }
-.stiliusf {
-	font-size: 17px;
+
+.navbar-expand-md {
+  top: 20px;
+  /* meniu nuleidimas nuo viršaus */
 }
-	</style>
+
+</style>
