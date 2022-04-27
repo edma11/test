@@ -2,17 +2,13 @@
 html {
   overflow-y: scroll;
 }
-
 .row{ margin-left: 0; margin-right: 0;}
 
 
 body {
     font-family: 'Balsamiq Sans';
-	min-height:100vh;
+}	
 	
-
-}
-
 .nav-link {
 
 color: black !important;
@@ -31,14 +27,14 @@ font-weight: 700 !important;
 .navbar-brand img {
 margin-top:-16px;
 }
-
+	
 .prideti {
   border: 5px solid black;
   padding: 0px;
  margin-right: 20px;
  background: #2b78e4;
  color: white !important;
-}
+}	
 
 .telefonas {
   border: 5px solid;
@@ -47,7 +43,7 @@ margin-top:-16px;
 
  width: 250px;
 
-}
+}	
 
 .fb{
  white-space: nowrap;
@@ -57,3 +53,7 @@ margin-left: 0
 .navbar-expand-md{
 top:20px ; /* meniu nuleidimas nuo viršaus */
 }
+.stiliusf {
+	font-size: 17px;
+}
+	</style>
